@@ -33,7 +33,11 @@
         </dependency>
 
     </dependencies>
+<<<<<<< HEAD
     <build>
+=======
+          <build>
+>>>>>>> cac52d985160bd04f4ada205160af650869c8e2f
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -41,7 +45,11 @@
                 <version>3.0.0-M5</version>
                 <configuration>
                     <includes>
+<<<<<<< HEAD
                         <include>**/TestRunner*.java</include>
+=======
+                        <include>**/FormSmartTestRunner*.java</include>
+>>>>>>> cac52d985160bd04f4ada205160af650869c8e2f
                     </includes>
                 </configuration>
             </plugin>
