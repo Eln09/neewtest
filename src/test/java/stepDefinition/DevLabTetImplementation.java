@@ -48,7 +48,7 @@ public class DevLabTetImplementation {
     }
     @When("user click on login button")
     public void User_click_devlab_logintbn() throws Exception{
-        new Actions(this.driver);
+        Thread.sleep(1000);
         Mthd.clicking(Mthd.Webelem(Elmnts.Devlabsloginbtn()));
         Thread.sleep(1000L);
     }
